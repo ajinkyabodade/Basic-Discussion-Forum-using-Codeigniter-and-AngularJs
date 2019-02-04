@@ -26,7 +26,7 @@
     <script  src="<?php echo base_url()?>application/js/controller/listc.js?=<?=rand()?>"></script>
     <script  src="<?php echo base_url()?>application/js/service/lists.js">  </script>
 </head>
-<body>
+<body  background="../../bg.jpg">
     <div class="container" >
         <a href="<?php echo site_url('welcome/Logout');?>" class="btn btn-primary btn-xl pull-right">Logout</a>
         <ng-view></ng-view>
