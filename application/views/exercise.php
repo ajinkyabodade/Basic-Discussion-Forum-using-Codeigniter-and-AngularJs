@@ -38,7 +38,7 @@ if($msg!=NULL){  echo "<script>alert('$msg');</script>"; }?>
     <script  src="<?php echo base_url()?>application/js/service/logins.js">  </script>
     </head>
 
-<body ng-app="myApp">
+<body ng-app="myApp" background="../../bg.jpg">
     <div class="container">
         <hr class="prettyline">
         <br>
